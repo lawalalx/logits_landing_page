@@ -9,7 +9,7 @@ export default function ImageCard({ src, alt }: Props) {
       <img
         src={src}
         alt={alt}
-        className="rounded-[25px] w-[280px] h-[550px] object-cover shadow-md"
+        className="rounded-[25px] object-cover shadow-md"
       />
     </div>
   )

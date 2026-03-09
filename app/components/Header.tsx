@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 const menuItems = [
   { name: "Home", href: "#home" },
@@ -18,12 +19,13 @@ export default function Header() {
       <div className="max-w-[1200px] mx-auto flex items-center justify-between py-[10px] px-4">
 
         {/* Logo */}
-        <Link
-          href="#home"
-          className="text-[30px] font-semibold leading-[40px]"
-        >
-          Logits Technologies
-        </Link>
+        <Image
+          src="/logo.png"
+          alt="Logits Technologies"
+          width={350}
+          height={250}
+          className="max-w-[200px] w-full"
+        />
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-8">

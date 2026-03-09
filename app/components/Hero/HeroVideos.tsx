@@ -2,21 +2,19 @@ import ImageCard from "./ImageCard"
 
 const images = [
   {
-    src: "/Whatsapp.webp",
+    src: "/hero_1.jpg",
     alt: "WhatsApp AI Agent Interface",
   },
-  {
-    src: "/convrs-whatsapp-sales-advanced-analytics.webp",
-    alt: "WhatsApp Sales Analytics Dashboard",
-  },
+  // {
+  //   src: "/convrs-whatsapp-sales-advanced-analytics.webp",
+  //   alt: "WhatsApp Sales Analytics Dashboard",
+  // },
 ]
 
 export default function HeroVideos() {
   return (
-    <div className="flex gap-6 items-center justify-center">
-      {images.map((image, i) => (
-        <ImageCard key={i} {...image} />
-      ))}
+    <div className="flex-1">
+      <ImageCard {...images[0]} />
     </div>
   )
 }

@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 const testimonials = [
   {
     id: 1,
-    quote: "Logits Technologies transformed our patient booking process. The WhatsApp AI agent is incredibly intuitive and has reduced our administrative workload by sixty percent.",
-    name: "Sarah Chen",
+    quote: "Logits Technologies meal planning automation The AI agent is incredibly intuitive enabling our user to plan thier meal and generate ingredient for easy shopping",
+    name: "Nelson",
     avatar: "https://assets-v2.codedesign.ai/storage/v1/object/public/codedesign-templates-assets/template-asset-8dea6377",
   },
   {
