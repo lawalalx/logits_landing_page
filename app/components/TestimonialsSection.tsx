@@ -4,24 +4,28 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const testimonials = [
-  {
+   {
     id: 1,
-    quote: "Logits Technologies meal planning automation The AI agent is incredibly intuitive enabling our user to plan thier meal and generate ingredient for easy shopping",
-    name: "Nelson",
-    avatar: "https://assets-v2.codedesign.ai/storage/v1/object/public/codedesign-templates-assets/template-asset-8dea6377",
+    quote: "Logits agents and automation integration is seamless. It is one of the most effective support tools",
+    name: "Uche Edwin",
+    role: "Product Lead - EqualyzAI",
+    avatar: "/testimonials/uche.png",
   },
   {
     id: 2,
-    quote: "Our students and parents now get instant answers about schedules and grades. It has significantly improved our communication efficiency and overall satisfaction.",
-    name: "Amina Yusuf",
-    avatar: "https://assets-v2.codedesign.ai/storage/v1/object/public/codedesign-templates-assets/template-asset-782ece29",
+    quote: "Logits Technologies meal planning automation The AI agent is incredibly intuitive enabling our user to plan thier meal and generate ingredient for easy shopping",
+    name: "Nelson",
+    role: "Founder/CEO - Quick Market",
+    avatar: "/testimonials/nelson.jpeg",
   },
   {
     id: 3,
-    quote: "The integration was seamless and our customers love the instant responses. It is the most effective support tool we have ever implemented.",
-    name: "David Okon",
-    avatar: "https://assets-v2.codedesign.ai/storage/v1/object/public/codedesign-templates-assets/template-asset-81837a58",
+    quote: "Logits agents are very nuanced to its usecase",
+    name: "Oluwatosin",
+    role: "Founder/CEO - Seldome Technologies",
+    avatar: "/testimonials/tosin.jpeg",
   },
+ 
 ];
 
 export default function TestimonialsSection() {
@@ -79,7 +83,7 @@ export default function TestimonialsSection() {
             </div>
 
             <h3 className="text-gray-900 font-bold text-lg">{t.name}</h3>
-            <p className="text-gray-500 text-sm italic">Verified customer</p>
+            <p className="text-gray-500 text-sm italic">{t.role}</p>
           </motion.div>
         ))}
       </div>
