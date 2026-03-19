@@ -9,11 +9,11 @@ export default function Footer() {
 
           {/* Company Info Section */}
           <div className="lg:col-span-2 space-y-4">
-            <Link href="#home" className="text-2xl md:text-3xl font-bold text-gray-900 hover:text-blue-600 transition-colors">
-              Logits Technologies
+            <Link href="#home" className="text-2xl md:text-3xl font-bold text-gray-900 hover:text-purple-600 transition-colors">
+              Logits Lab
             </Link>
             <p className="text-gray-600 text-sm md:text-base leading-relaxed max-w-md">
-              Deploy intelligent AI agents to automate your business workflows on WhatsApp.
+              We design, build, and deploy intelligent AI systems that automate workflows, enhance decision-making, and scale business operations.
             </p>
 
             {/* Social Icons */}
@@ -22,7 +22,7 @@ export default function Footer() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-center items-center w-11 h-11 rounded-full bg-gray-300 hover:bg-blue-600 transition-all duration-300 transform hover:scale-110 group"
+                className="flex justify-center items-center w-11 h-11 rounded-full bg-gray-300 hover:bg-purple-600 transition-all duration-300 transform hover:scale-110 group"
                 aria-label="Follow us on Facebook"
               >
                 <svg
@@ -39,7 +39,7 @@ export default function Footer() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-center items-center w-11 h-11 rounded-full bg-gray-300 hover:bg-blue-400 transition-all duration-300 transform hover:scale-110 group"
+                className="flex justify-center items-center w-11 h-11 rounded-full bg-gray-300 hover:bg-purple-400 transition-all duration-300 transform hover:scale-110 group"
                 aria-label="Follow us on Twitter"
               >
                 <svg
@@ -75,7 +75,7 @@ export default function Footer() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-center items-center w-11 h-11 rounded-full bg-gray-300 hover:bg-blue-700 transition-all duration-300 transform hover:scale-110 group"
+                className="flex justify-center items-center w-11 h-11 rounded-full bg-gray-300 hover:bg-purple-700 transition-all duration-300 transform hover:scale-110 group"
                 aria-label="Connect with us on LinkedIn"
               >
                 <svg
@@ -94,13 +94,13 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-bold text-gray-900">Product</h4>
             <nav className="flex flex-col space-y-2">
-              <Link href="#home" className="text-gray-600 hover:text-blue-600 transition-colors text-sm md:text-base">
+              <Link href="#home" className="text-gray-600 hover:text-purple-600 transition-colors text-sm md:text-base">
                 Home
               </Link>
-              <Link href="#service" className="text-gray-600 hover:text-blue-600 transition-colors text-sm md:text-base">
+              <Link href="#service" className="text-gray-600 hover:text-purple-600 transition-colors text-sm md:text-base">
                 Service
               </Link>
-              <Link href="#features" className="text-gray-600 hover:text-blue-600 transition-colors text-sm md:text-base">
+              <Link href="#features" className="text-gray-600 hover:text-purple-600 transition-colors text-sm md:text-base">
                 Features
               </Link>
             </nav>
@@ -110,10 +110,10 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-bold text-gray-900">Quick Links</h4>
             <nav className="flex flex-col space-y-2">
-              <Link href="/privacypolicy" className="text-gray-600 hover:text-blue-600 transition-colors text-sm md:text-base">
+              <Link href="/privacypolicy" className="text-gray-600 hover:text-purple-600 transition-colors text-sm md:text-base">
                 Privacy Policy
               </Link>
-              <Link href="/termsofuse" className="text-gray-600 hover:text-blue-600 transition-colors text-sm md:text-base">
+              <Link href="/termsofuse" className="text-gray-600 hover:text-purple-600 transition-colors text-sm md:text-base">
                 Terms of Use
               </Link>
             </nav>
@@ -125,10 +125,10 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-bold text-gray-900">Extra Links</h4>
             <nav className="flex flex-col space-y-2">
-              <Link href="/home" className="text-gray-600 hover:text-blue-600 transition-colors text-sm">
+              <Link href="/home" className="text-gray-600 hover:text-purple-600 transition-colors text-sm">
                 Career
               </Link>
-              <Link href="/form" className="text-gray-600 hover:text-blue-600 transition-colors text-sm">
+              <Link href="/form" className="text-gray-600 hover:text-purple-600 transition-colors text-sm">
                 Contact
               </Link>
             </nav>
@@ -138,10 +138,10 @@ export default function Footer() {
         {/* Desktop Extra Links */}
         <div className="hidden md:flex justify-center mt-12 pt-8 border-t border-gray-200">
           <nav className="flex gap-8">
-            <Link href="/home" className="text-gray-600 hover:text-blue-600 transition-colors text-sm">
+            <Link href="/home" className="text-gray-600 hover:text-purple-600 transition-colors text-sm">
               Career
             </Link>
-            <Link href="/form" className="text-gray-600 hover:text-blue-600 transition-colors text-sm">
+            <Link href="/form" className="text-gray-600 hover:text-purple-600 transition-colors text-sm">
               Contact
             </Link>
           </nav>
@@ -155,7 +155,7 @@ export default function Footer() {
               href="#"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-gray-900 hover:text-blue-600 transition-colors"
+              className="font-semibold text-gray-900 hover:text-purple-600 transition-colors"
             >
               Logits Technologies
             </a>

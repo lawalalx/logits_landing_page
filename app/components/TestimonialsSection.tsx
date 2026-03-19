@@ -4,23 +4,23 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const testimonials = [
-   {
-    id: 1,
-    quote: "Logits agents and automation integration is seamless. It is one of the most effective support tools",
-    name: "Uche Edwin",
-    role: "Product Lead - EqualyzAI",
-    avatar: "/testimonials/uche.png",
-  },
+  //  {
+  //   id: 1,
+  //   quote: "Logits agents and automation integration is seamless. It is one of the most effective support tools",
+  //   name: "Uche Edwin",
+  //   role: "Product Lead - EqualyzAI",
+  //   avatar: "/testimonials/uche.png",
+  // },
   {
     id: 2,
-    quote: "Logits Technologies meal planning automation The AI agent is incredibly intuitive enabling our user to plan thier meal and generate ingredient for easy shopping",
+    quote: "Thier agents enabled our user to plan thier meal and generate ingredient for easy shopping reducing shoppint time by 65%",
     name: "Nelson",
     role: "Founder/CEO - Quick Market",
     avatar: "/testimonials/nelson.jpeg",
   },
   {
     id: 3,
-    quote: "Logits agents are very nuanced to its usecase",
+    quote: "Our customers can make transactions with 45% less time due the smarts AI agents",
     name: "Oluwatosin",
     role: "Founder/CEO - Seldome Technologies",
     avatar: "/testimonials/tosin.jpeg",
@@ -45,7 +45,7 @@ export default function TestimonialsSection() {
       </div>
 
       {/* Testimonials Grid */}
-      <div className="grid gap-10 md:gap-8 sm:gap-6 md:grid-cols-1 lg:grid-cols-3 justify-items-center">
+      <div className="grid gap-10 md:gap-8 sm:gap-6 md:grid-cols-1 lg:grid-cols-2 justify-items-center">
         {testimonials.map((t, idx) => (
           <motion.div
             key={t.id}
@@ -56,13 +56,13 @@ export default function TestimonialsSection() {
             whileHover={{ scale: 1.03 }}
             className="flex flex-col items-center gap-4 max-w-sm p-6 bg-white rounded-xl shadow-md"
           >
-            <Image
+            {/* <Image
               src={t.avatar}
               width={80}
               height={80}
               alt={t.name}
               className="rounded-full object-cover"
-            />
+            /> */}
 
             <p className="text-gray-700 text-base md:text-sm text-center leading-relaxed">
               {t.quote}
@@ -82,7 +82,7 @@ export default function TestimonialsSection() {
               ))}
             </div>
 
-            <h3 className="text-gray-900 font-bold text-lg">{t.name}</h3>
+            {/* <h3 className="text-gray-900 font-bold text-lg">{t.name}</h3> */}
             <p className="text-gray-500 text-sm italic">{t.role}</p>
           </motion.div>
         ))}

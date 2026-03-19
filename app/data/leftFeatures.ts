@@ -2,37 +2,38 @@ import { Feature } from "@/app/types/features";
 
 const leftFeatures: Feature[] = [
   {
-    title: "Banking Solutions",
+    title: "AI Strategy & Roadmap",
     description:
-      "Enable customers to check balances and view transactions securely through a simple WhatsApp message any time.",
+      "We help you identify high-impact AI opportunities, define clear use cases, and build a practical roadmap from idea to production.",
   },
   {
-    title: "Hospital Booking",
+    title: "Enterprise Data Foundation",
     description:
-      "Patients can schedule appointments and find doctors without waiting on hold or using apps.",
+      "Structure and connect your data systems to power intelligent applications, enabling accurate insights and reliable automation.",
   },
   {
-    title: "School Management",
+    title: "AI Architecture & Integration",
     description:
-      "Parents can instantly access grades and school records through automated WhatsApp chat interactions easily.",
+      "Design and integrate scalable AI systems that connect seamlessly with your existing tools, APIs, and business workflows.",
   },
 ];
 
+
 const rightFeatures: Feature[] = [
   {
-    title: "Real Estate",
+    title: "Custom AI Development",
     description:
-      "Retrieve property listings and schedule viewings instantly using our intelligent automated WhatsApp search tools.",
+      "We build tailored AI solutions including copilots, chatbots, and intelligent systems designed around your specific business needs.",
   },
   {
-    title: "24/7 Support",
+    title: "WhatsApp AI Agents",
     description:
-      "Provide round-the-clock assistance to your customers without the need for a massive support team.",
+      "Deploy powerful conversational AI on WhatsApp to automate customer interactions, operations, and internal workflows.",
   },
   {
-    title: "Secure Integration",
+    title: "Multi-Agent Systems",
     description:
-      "Connect safely to your existing enterprise systems with our robust and encrypted API integration layer.",
+      "Orchestrate multiple AI agents that collaborate to execute complex, multi-step tasks across your organization.",
   },
 ];
 

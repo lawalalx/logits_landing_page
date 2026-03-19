@@ -51,8 +51,7 @@ const FaqSection: React.FC = () => {
         Frequently Asked Questions
       </h2>
       <p className="text-center text-lg text-gray-700 mb-10 max-w-2xl">
-        Find answers to the most common questions about our AI WhatsApp agents and integration
-        process.
+        Frequently Asked Questions About Our AI Services
       </p>
       <div className="w-full max-w-4xl flex flex-col gap-6">
         {faqData.map((item, idx) => (

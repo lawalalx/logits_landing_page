@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const FooterCalloutSection = () => {
   return (
     <motion.section
-      className="w-full bg-[var(--vId-color-token-c)] flex py-[100px] px-4 md:px-10 lg:px-16 bg-blue-500"
+      className="w-full bg-[var(--vId-color-token-c)] flex py-[100px] px-4 md:px-10 lg:px-16 bg-purple-500"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
@@ -27,14 +27,12 @@ const FooterCalloutSection = () => {
             className="text-white font-bold text-[36px] leading-[48px] md:text-[36px] md:leading-[46px] sm:text-[30px] sm:leading-[40px] text-center py-[10px] pb-[20px]"
             style={{ fontFamily: "var(--vId-font-token-a)" }}
           >
-            Bring AI to Your Organization Today
+            Start Building AI That Actually Works for Your Business
           </h2>
           <p
             className="max-w-[700px] text-white/80 font-normal text-[18px] leading-[30px] md:text-[18px] md:leading-[28px] sm:text-[16px] sm:leading-[26px] text-center pb-[30px]"
           >
-            Join the future of business communication with Logits Technologies.
-            Start automating your workflows and engaging your customers
-            effectively on the world's favorite app.
+            Whether you're exploring AI or scaling existing systems, we help you move from idea to production with confidence.
           </p>
         </motion.div>
 
@@ -52,7 +50,7 @@ const FooterCalloutSection = () => {
               className="text-white font-semibold text-[18px] leading-[24px]"
               style={{ fontFamily: "var(--vId-font-token-b)" }}
             >
-              Contact us
+              Book a Consultation
             </span>
             <span className="w-[25px]">
               <svg

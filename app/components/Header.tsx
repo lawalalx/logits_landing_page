@@ -20,7 +20,7 @@ export default function Header() {
 
         {/* Logo */}
         <Image
-          src="/logo.png"
+          src="/logo/logo2.png"
           alt="Logits Technologies"
           width={350}
           height={250}
@@ -33,7 +33,7 @@ export default function Header() {
             <Link
               key={item.name}
               href={item.href}
-              className="font-semibold hover:text-blue-600"
+              className="font-semibold hover:text-purple-600"
             >
               {item.name}
             </Link>
@@ -41,7 +41,7 @@ export default function Header() {
 
           <Link
             href="/form"
-            className="px-[30px] py-[10px] rounded-full border-2 border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-white transition"
+            className="px-[30px] py-[10px] rounded-full border-2 border-[#dac247] font-bold text-[#dac247] hover:bg-[#dac247] hover:text-white transition"
           >
             Contact us
           </Link>

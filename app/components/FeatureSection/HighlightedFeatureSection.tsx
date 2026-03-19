@@ -8,16 +8,16 @@ export default function HighlightedFeatureSection() {
   return (
     <section
       id="service"
-      className="py-20 px-6 lg:px-16  relative bg-gradient-to-b from-blue-600 to-blue-800 text-white overflow-hidden"
+      className="py-20 px-6 lg:px-16  relative bg-gradient-to-b from-purple-600 to-purple-800 text-white overflow-hidden"
       style={{ fontFamily: "Space Grotesk, sans-serif" }}
     >
       {/* Header */}
       <div className="max-w-4xl mx-auto text-center mb-16 md:mb-24">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
-          Industry Leading AI Solutions
+          AI Services Designed for Real Business Impact
         </h2>
-        <p className="text-base md:text-lg text-blue-100 max-w-2xl mx-auto leading-relaxed">
-          We provide specialized AI agents tailored for healthcare, education, real estate, and enterprise customer support teams.
+        <p className="text-base md:text-lg text-purple-100 max-w-2xl mx-auto leading-relaxed">
+          From strategy to deployment, we help you move from experimentation to production-ready AI systems.
         </p>
       </div>
 
@@ -37,7 +37,7 @@ export default function HighlightedFeatureSection() {
                   <h3 className="text-lg md:text-xl font-bold text-white">
                     {feature.title}
                   </h3>
-                  <p className="text-sm md:text-base text-blue-100 leading-relaxed max-w-sm">
+                  <p className="text-sm md:text-base text-purple-100 leading-relaxed max-w-sm">
                     {feature.description}
                   </p>
                 </div>
@@ -63,7 +63,7 @@ export default function HighlightedFeatureSection() {
                   <h3 className="text-lg md:text-xl font-bold text-white">
                     {feature.title}
                   </h3>
-                  <p className="text-sm md:text-base text-blue-100 leading-relaxed max-w-sm">
+                  <p className="text-sm md:text-base text-purple-100 leading-relaxed max-w-sm">
                     {feature.description}
                   </p>
                 </div>
@@ -74,8 +74,8 @@ export default function HighlightedFeatureSection() {
       </div>
 
       {/* Decorative Background Elements */}
-      <div className="absolute top-20 left-10 w-32 h-32 bg-blue-400/10 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-20 right-10 w-40 h-40 bg-blue-500/10 rounded-full blur-3xl"></div>
+      <div className="absolute top-20 left-10 w-32 h-32 bg-purple-400/10 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 right-10 w-40 h-40 bg-purple-500/10 rounded-full blur-3xl"></div>
     </section>
   );
 }

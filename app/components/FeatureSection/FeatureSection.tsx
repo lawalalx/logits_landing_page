@@ -12,21 +12,39 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: FaAsterisk,
-    title: "AI Understanding",
+    title: "Agentic AI Systems",
     description:
-      "Our agents use advanced natural language processing to understand and respond to complex customer inquiries.",
+      "Build autonomous AI agents that can reason, act, and execute multi-step workflows across your business tools.",
   },
   {
     icon: FaBahai,
-    title: "Data Retrieval",
+    title: "Data & System Integration",
     description:
-      "Instantly fetch information from your existing databases and provide real-time answers to your users' questions.",
+      "Connect AI to your existing systems (CRMs, databases, APIs) to enable real-time insights and intelligent decision-making.",
   },
   {
     icon: FaCertificate,
     title: "Workflow Automation",
     description:
-      "Streamline operations by automating repetitive tasks and approvals directly through a familiar chat interface.",
+      "Automate repetitive operations across customer support, internal processes, and business workflows using AI.",
+  },
+  {
+    icon: FaBahai,
+    title: "Conversational AI (WhatsApp & Beyond)",
+    description:
+      "Deploy intelligent assistants on WhatsApp and other channels to handle customer interactions and internal queries.",
+  },
+  {
+    icon: FaCertificate,
+    title: "Rapid AI Prototyping (PoC)",
+    description:
+      "Quickly validate ideas with working AI prototypes in weeks, not months.",
+  },
+  {
+    icon: FaCertificate,
+    title: "AI Training & Enablement",
+    description:
+      "Equip your team with the knowledge and tools to adopt and scale AI across your organization.",
   },
 ];
 
@@ -41,8 +59,8 @@ function FeatureCard({ icon: Icon, title, description }: FeatureCardProps) {
     <div className="flex flex-col items-center text-center max-w-sm">
       
       {/* Icon Block */}
-      <div className="flex items-center justify-center w-16 h-16 rounded-xl bg-blue-50 border border-blue-200">
-        <Icon className="text-2xl text-blue-600" />
+      <div className="flex items-center justify-center w-16 h-16 rounded-xl bg-purple-50 border border-purple-200">
+        <Icon className="text-2xl text-purple-600" />
       </div>
 
       {/* Title */}
@@ -69,8 +87,8 @@ export default function FeatureSection() {
         {/* Section Header */}
         <div className="text-center max-w-2xl mb-16">
           
-          <span className="text-sm font-semibold text-blue-600 px-4 py-1 rounded-full">
-            Core Capabilities
+          <span className="text-sm font-semibold text-purple-600 px-4 py-1 rounded-full">
+            AI Capabilities That Power Your Business
           </span>
 
           <h2 className="text-4xl font-bold text-gray-900 mt-4 mb-4">
@@ -78,8 +96,7 @@ export default function FeatureSection() {
           </h2>
 
           <p className="text-lg text-gray-600">
-            Logits Technologies provides the tools needed to transform your
-            WhatsApp into a high-performance automated business hub.
+            We combine AI engineering, data systems, and intelligent automation to deliver solutions that move from idea to production fast.
           </p>
 
         </div>

@@ -16,7 +16,7 @@ export default function AboutSection() {
             initial={{ opacity: 0, y: -40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-[30px] p-4 shadow-lg flex-1"
+            className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-[30px] p-4 shadow-lg flex-1"
           >
             <img
               src="/convert-2.webp"
@@ -30,17 +30,17 @@ export default function AboutSection() {
         <div className="flex flex-col items-start max-w-xl">
 
           <span className="text-sm font-semibold bg-green-100 text-green-700 px-4 py-1 rounded-full mb-4">
-            About Logits Technologies
+            About Logits Lab
           </span>
 
           <h2 className="text-4xl md:text-3xl font-bold text-gray-900 leading-tight mb-6">
-            Revolutionizing Business Communication Through Intelligent
-            WhatsApp Automation
+            Your End-to-End AI & Technology Delivery Partner
           </h2>
 
           <p className="text-lg text-gray-700 leading-relaxed mb-8">
-            We empower organizations to deliver instant, human-like support and
-            data access through the WhatsApp platform.
+            At Logits Technologies, we go beyond single-use tools to help organizations design, build, and scale AI-powered systems tailored to their operations. <br/>
+
+            From WhatsApp automation to enterprise-grade agentic AI systems, we partner with businesses to transform manual workflows into intelligent, automated processes that drive efficiency and growth.
           </p>
 
           {/* FEATURES */}
@@ -53,15 +53,14 @@ export default function AboutSection() {
               transition={{ duration: 0.6 }}
               className="flex flex-col items-start"
             >
-              <div className="bg-blue-50 border border-blue-200 p-3 rounded-lg">
-                <FaLaptopCode className="text-blue-600 text-xl" />
+              <div className="bg-purple-50 border border-purple-200 p-3 rounded-lg">
+                <FaLaptopCode className="text-purple-600 text-xl" />
               </div>
 
               <h4 className="font-bold text-lg mt-5 mb-2">Our Mission</h4>
 
               <p className="text-gray-600 leading-relaxed">
-                To simplify complex business workflows through intuitive
-                AI-driven conversational interfaces.
+                To help organizations unlock the full potential of AI by building practical, scalable, and high-impact intelligent systems.
               </p>
             </motion.div>
 
@@ -72,15 +71,14 @@ export default function AboutSection() {
               transition={{ duration: 0.6 }}
               className="flex flex-col items-start"
             >
-              <div className="bg-blue-50 border border-blue-200 p-3 rounded-lg">
-                <FaPencilRuler className="text-blue-600 text-xl" />
+              <div className="bg-purple-50 border border-purple-200 p-3 rounded-lg">
+                <FaPencilRuler className="text-purple-600 text-xl" />
               </div>
 
               <h4 className="font-bold text-lg mt-5 mb-2">Our Vision</h4>
 
               <p className="text-gray-600 leading-relaxed">
-                Leading the global transition toward automated, accessible,
-                and intelligent enterprise communication.
+                To become a leading AI delivery partner powering the next generation of intelligent, automated enterprises across Africa and beyond.
               </p>
             </motion.div>
           </div>
@@ -88,9 +86,9 @@ export default function AboutSection() {
           {/* CTA */}
           <Link
             href="/form"
-            className="px-8 py-3 rounded-full bg-blue-600 text-white font-bold"
+            className="px-8 py-3 rounded-full bg-[#dac247] text-white font-bold"
           >
-            Contact us
+            Let's talk
           </Link>
         </div>
       </div>

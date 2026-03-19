@@ -5,7 +5,7 @@ type Props = {
 
 export default function ImageCard({ src, alt }: Props) {
   return (
-    <div className="rounded-[30px] p-3 bg-gradient-to-br from-blue-50 to-blue-100 shadow-lg">
+    <div className="rounded-[30px] p-3 bg-gradient-to-br from-purple-50 to-purple-100 shadow-lg">
       <img
         src={src}
         alt={alt}
