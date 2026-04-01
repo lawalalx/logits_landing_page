@@ -30,7 +30,7 @@ export default function AboutSection() {
         <div className="flex flex-col items-start max-w-xl">
 
           <span className="text-sm font-semibold bg-green-100 text-green-700 px-4 py-1 rounded-full mb-4">
-            About Logits Lab
+            About Syncliq Lab
           </span>
 
           <h2 className="text-4xl md:text-3xl font-bold text-gray-900 leading-tight mb-6">
@@ -38,7 +38,7 @@ export default function AboutSection() {
           </h2>
 
           <p className="text-lg text-gray-700 leading-relaxed mb-8">
-            At Logits Technologies, we go beyond single-use tools to help organizations design, build, and scale AI-powered systems tailored to their operations. <br/>
+            At Syncliq Technologies, we go beyond single-use tools to help organizations design, build, and scale AI-powered systems tailored to their operations. <br/>
 
             From WhatsApp automation to enterprise-grade agentic AI systems, we partner with businesses to transform manual workflows into intelligent, automated processes that drive efficiency and growth.
           </p>

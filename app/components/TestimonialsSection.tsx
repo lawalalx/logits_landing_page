@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const testimonials = [
   //  {
   //   id: 1,
-  //   quote: "Logits agents and automation integration is seamless. It is one of the most effective support tools",
+  //   quote: "Syncliq agents and automation integration is seamless. It is one of the most effective support tools",
   //   name: "Uche Edwin",
   //   role: "Product Lead - EqualyzAI",
   //   avatar: "/testimonials/uche.png",

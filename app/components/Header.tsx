@@ -19,13 +19,17 @@ export default function Header() {
       <div className="max-w-[1200px] mx-auto flex items-center justify-between py-[10px] px-4">
 
         {/* Logo */}
-        <Image
+        {/* <Image
           src="/logo/logo2.png"
-          alt="Logits Technologies"
+          alt="Syncliq Technologies"
           width={350}
           height={250}
           className="max-w-[200px] w-full"
-        />
+        /> */}
+
+        <h1 className="text-2xl font-bold text-black" style={{ fontFamily: "Space Grotesk, sans-serif" }}>
+          Syncliq
+        </h1>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-8">

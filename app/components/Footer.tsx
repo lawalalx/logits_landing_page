@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Company Info Section */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="#home" className="text-2xl md:text-3xl font-bold text-gray-900 hover:text-purple-600 transition-colors">
-              Logits Lab
+              Syncliq Lab
             </Link>
             <p className="text-gray-600 text-sm md:text-base leading-relaxed max-w-md">
               We design, build, and deploy intelligent AI systems that automate workflows, enhance decision-making, and scale business operations.
@@ -157,7 +157,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="font-semibold text-gray-900 hover:text-purple-600 transition-colors"
             >
-              Logits Technologies
+              Syncliq Technologies
             </a>
           </p>
         </div>

@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Logits",
-  description: "Logits Technologies",
+  title: "Syncliq",
+  description: "Syncliq Technologies",
 };
 
 export default function RootLayout({

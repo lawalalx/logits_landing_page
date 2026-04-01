@@ -95,7 +95,7 @@ export default function ContactForm() {
         <div className="text-center mb-8">
           <Link href="/" className="inline-block mb-6">
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 hover:text-purple-600 transition-colors">
-              Logits Technologies
+              Syncliq Technologies
             </h1>
           </Link>
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
