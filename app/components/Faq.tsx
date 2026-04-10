@@ -46,11 +46,11 @@ const FaqItem: React.FC<FaqItemProps> = ({ question, answer }) => {
 
 const FaqSection: React.FC = () => {
   return (
-    <section className="flex flex-col items-center justify-center py-12 px-4 md:px-8 lg:px-16">
-      <h2 className="font-bold text-4xl text-gray-900 text-center mb-4">
+    <section className="flex flex-col items-center justify-center py-16 px-4 md:px-8 lg:px-16 bg-gradient-to-b from-indigo-50 to-white">
+      <h2 className="font-extrabold text-4xl text-indigo-800 text-center mb-4">
         Frequently Asked Questions
       </h2>
-      <p className="text-center text-lg text-gray-700 mb-10 max-w-2xl">
+      <p className="text-center text-lg text-indigo-900/80 mb-10 max-w-2xl">
         Frequently Asked Questions About Our AI Services
       </p>
       <div className="w-full max-w-4xl flex flex-col gap-6">

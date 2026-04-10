@@ -56,20 +56,20 @@ interface FeatureCardProps {
 
 function FeatureCard({ icon: Icon, title, description }: FeatureCardProps) {
   return (
-    <div className="flex flex-col items-center text-center max-w-sm">
+    <div className="flex flex-col items-center text-center max-w-sm bg-white rounded-xl shadow-md p-6 border border-indigo-50 hover:shadow-lg transition-shadow duration-200">
       
       {/* Icon Block */}
       <div className="flex items-center justify-center w-16 h-16 rounded-xl bg-purple-50 border border-purple-200">
-        <Icon className="text-2xl text-purple-600" />
+        <Icon className="text-electric-500 text-3xl" />
       </div>
 
       {/* Title */}
-      <h3 className="mt-6 mb-3 text-xl font-bold text-gray-900 font-space">
+      <h3 className="mt-6 mb-3 text-xl font-bold text-indigo-800 font-space">
         {title}
       </h3>
 
       {/* Description */}
-      <p className="text-gray-600 text-base leading-relaxed">
+      <p className="text-indigo-900/80 text-base leading-relaxed">
         {description}
       </p>
     </div>

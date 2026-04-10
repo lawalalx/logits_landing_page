@@ -2,17 +2,17 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F3F3F3] py-20 px-6 lg:px-16 ">
+    <footer className="bg-gradient-to-b from-indigo-700 to-indigo-900 py-20 px-6 lg:px-16 text-white">
       <div className="max-w-7xl mx-auto">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
 
           {/* Company Info Section */}
           <div className="lg:col-span-2 space-y-4">
-            <Link href="#home" className="text-2xl md:text-3xl font-bold text-gray-900 hover:text-purple-600 transition-colors">
+            <Link href="#home" className="text-2xl md:text-3xl font-extrabold text-white hover:text-electric-400 transition-colors">
               Syncliq Lab
             </Link>
-            <p className="text-gray-600 text-sm md:text-base leading-relaxed max-w-md">
+            <p className="text-indigo-100 text-sm md:text-base leading-relaxed max-w-md">
               We design, build, and deploy intelligent AI systems that automate workflows, enhance decision-making, and scale business operations.
             </p>
 
@@ -22,11 +22,11 @@ export default function Footer() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-center items-center w-11 h-11 rounded-full bg-gray-300 hover:bg-purple-600 transition-all duration-300 transform hover:scale-110 group"
+                className="flex justify-center items-center w-11 h-11 rounded-full bg-electric-500 hover:bg-white transition-all duration-300 transform hover:scale-110 group"
                 aria-label="Follow us on Facebook"
               >
                 <svg
-                  className="w-5 h-5 text-gray-600 group-hover:text-white transition-colors"
+                  className="w-5 h-5 text-white group-hover:text-electric-500 transition-colors"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -39,11 +39,11 @@ export default function Footer() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-center items-center w-11 h-11 rounded-full bg-gray-300 hover:bg-purple-400 transition-all duration-300 transform hover:scale-110 group"
+                className="flex justify-center items-center w-11 h-11 rounded-full bg-electric-500 hover:bg-white transition-all duration-300 transform hover:scale-110 group"
                 aria-label="Follow us on Twitter"
               >
                 <svg
-                  className="w-5 h-5 text-gray-600 group-hover:text-white transition-colors"
+                  className="w-5 h-5 text-white group-hover:text-electric-500 transition-colors"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -56,11 +56,11 @@ export default function Footer() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-center items-center w-11 h-11 rounded-full bg-gray-300 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 transition-all duration-300 transform hover:scale-110 group"
+                className="flex justify-center items-center w-11 h-11 rounded-full bg-electric-500 hover:bg-white transition-all duration-300 transform hover:scale-110 group"
                 aria-label="Follow us on Instagram"
               >
                 <svg
-                  className="w-5 h-5 text-gray-600 group-hover:text-white transition-colors"
+                  className="w-5 h-5 text-white group-hover:text-electric-500 transition-colors"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -70,37 +70,20 @@ export default function Footer() {
                   <circle cx="18.406" cy="5.594" r="1.44"/>
                 </svg>
               </a>
-
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex justify-center items-center w-11 h-11 rounded-full bg-gray-300 hover:bg-purple-700 transition-all duration-300 transform hover:scale-110 group"
-                aria-label="Connect with us on LinkedIn"
-              >
-                <svg
-                  className="w-5 h-5 text-gray-600 group-hover:text-white transition-colors"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
-              </a>
             </div>
           </div>
 
           {/* Product Links */}
           <div className="space-y-4">
-            <h4 className="text-lg font-bold text-gray-900">Product</h4>
+            <h4 className="text-lg font-bold text-white">Product</h4>
             <nav className="flex flex-col space-y-2">
-              <Link href="#home" className="text-gray-600 hover:text-purple-600 transition-colors text-sm md:text-base">
+              <Link href="#home" className="text-text hover:text-gray-400 transition-colors text-sm md:text-base">
                 Home
               </Link>
-              <Link href="#service" className="text-gray-600 hover:text-purple-600 transition-colors text-sm md:text-base">
+              <Link href="#service" className="text-text hover:text-gray-400 transition-colors text-sm md:text-base">
                 Service
               </Link>
-              <Link href="#features" className="text-gray-600 hover:text-purple-600 transition-colors text-sm md:text-base">
+              <Link href="#features" className="text-text hover:text-gray-400 transition-colors text-sm md:text-base">
                 Features
               </Link>
             </nav>
@@ -108,12 +91,12 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h4 className="text-lg font-bold text-gray-900">Quick Links</h4>
+            <h4 className="text-lg font-bold text-white">Quick Links</h4>
             <nav className="flex flex-col space-y-2">
-              <Link href="/privacypolicy" className="text-gray-600 hover:text-purple-600 transition-colors text-sm md:text-base">
+              <Link href="/privacypolicy" className="text-text hover:text-gray-400 transition-colors text-sm md:text-base">
                 Privacy Policy
               </Link>
-              <Link href="/termsofuse" className="text-gray-600 hover:text-purple-600 transition-colors text-sm md:text-base">
+              <Link href="/termsofuse" className="text-text hover:text-gray-400 transition-colors text-sm md:text-base">
                 Terms of Use
               </Link>
             </nav>
@@ -123,12 +106,12 @@ export default function Footer() {
         {/* Extra Links - Mobile Only */}
         <div className="md:hidden mt-8 pt-8 border-t border-gray-200">
           <div className="space-y-4">
-            <h4 className="text-lg font-bold text-gray-900">Extra Links</h4>
+            <h4 className="text-lg font-bold text-white">Extra Links</h4>
             <nav className="flex flex-col space-y-2">
-              <Link href="/home" className="text-gray-600 hover:text-purple-600 transition-colors text-sm">
+              <Link href="/home" className="text-text hover:text-gray-400 transition-colors text-sm">
                 Career
               </Link>
-              <Link href="/form" className="text-gray-600 hover:text-purple-600 transition-colors text-sm">
+              <Link href="/form" className="text-text hover:text-gray-400 transition-colors text-sm">
                 Contact
               </Link>
             </nav>
@@ -138,10 +121,10 @@ export default function Footer() {
         {/* Desktop Extra Links */}
         <div className="hidden md:flex justify-center mt-12 pt-8 border-t border-gray-200">
           <nav className="flex gap-8">
-            <Link href="/home" className="text-gray-600 hover:text-purple-600 transition-colors text-sm">
+            <Link href="/home" className="text-text hover:text-gray-400 transition-colors text-sm">
               Career
             </Link>
-            <Link href="/form" className="text-gray-600 hover:text-purple-600 transition-colors text-sm">
+            <Link href="/form" className="text-text hover:text-gray-400 transition-colors text-sm">
               Contact
             </Link>
           </nav>
@@ -149,13 +132,13 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-gray-200 text-center">
-          <p className="text-gray-600 text-sm">
+          <p className="text-text text-sm">
             Designed by{" "}
             <a
               href="#"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-gray-900 hover:text-purple-600 transition-colors"
+              className="font-semibold text-white hover:text-gray-400 transition-colors"
             >
               Syncliq Technologies
             </a>

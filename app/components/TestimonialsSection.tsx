@@ -32,14 +32,14 @@ export default function TestimonialsSection() {
   return (
     <section
       id="testimonial"
-      className="bg-green-50 py-24 px-4 md:py-16 md:px-4 flex flex-col gap-10"
+      className="bg-gradient-to-b from-indigo-50 to-white py-24 px-4 md:py-16 md:px-4 flex flex-col gap-10"
     >
       {/* Heading */}
       <div className="flex flex-col items-center gap-4">
-        <span className="bg-green-100 px-4 py-1 rounded-full text-green-800 font-semibold text-sm">
+        <span className="bg-electric-100 px-4 py-1 rounded-full text-electric-700 font-semibold text-sm">
           Client Success
         </span>
-        <h2 className="text-4xl md:text-3xl sm:text-2xl font-bold text-gray-900 text-center">
+        <h2 className="text-4xl md:text-3xl sm:text-2xl font-extrabold text-indigo-800 text-center">
           Trusted by Leading Global Organizations
         </h2>
       </div>
@@ -54,19 +54,17 @@ export default function TestimonialsSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: idx * 0.2, type: "spring", stiffness: 100 }}
             whileHover={{ scale: 1.03 }}
-            className="flex flex-col items-center gap-4 max-w-sm p-6 bg-white rounded-xl shadow-md"
+            className="flex flex-col items-center gap-4 max-w-sm p-8 bg-white rounded-2xl shadow-xl border border-indigo-100"
           >
             {/* <Image
               src={t.avatar}
               width={80}
               height={80}
               alt={t.name}
-              className="rounded-full object-cover"
+              className="rounded-full object-cover border-2 border-electric-200 mb-2"
             /> */}
 
-            <p className="text-gray-700 text-base md:text-sm text-center leading-relaxed">
-              {t.quote}
-            </p>
+            <p className="text-lg text-indigo-900/90 font-medium text-center">"{t.quote}"</p>
 
             <div className="flex gap-1">
               {[...Array(5)].map((_, i) => (
@@ -74,7 +72,7 @@ export default function TestimonialsSection() {
                   key={i}
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 32 32"
-                  className="w-5 h-5 text-orange-500"
+                  className="w-5 h-5 text-electric-500"
                   fill="currentColor"
                 >
                   <path d="m30.336 12.547-10.172-1.074L16 2.133l-4.164 9.34-10.172 1.074 7.598 6.848L7.14 29.398 16 24.29l8.86 5.11-2.122-10.004z" />
@@ -82,8 +80,8 @@ export default function TestimonialsSection() {
               ))}
             </div>
 
-            {/* <h3 className="text-gray-900 font-bold text-lg">{t.name}</h3> */}
-            <p className="text-gray-500 text-sm italic">{t.role}</p>
+            <span className="font-bold text-electric-600">{t.name}</span>
+            <span className="text-sm text-indigo-500">{t.role}</span>
           </motion.div>
         ))}
       </div>
