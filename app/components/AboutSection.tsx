@@ -86,7 +86,7 @@ export default function AboutSection() {
           {/* CTA */}
           <Link
             href="/form"
-            className="px-8 py-3 rounded-full bg-[#dac247] text-white font-bold"
+            className="px-8 py-3 rounded-full bg-indigo-600 text-white font-bold"
           >
             Let's talk
           </Link>

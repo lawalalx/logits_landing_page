@@ -14,7 +14,7 @@ export default function HeroContent() {
       <div className="flex gap-4 flex-wrap justify-center md:justify-start mt-2">
         <Link
           href="/form"
-          className="px-8 py-3 rounded-full bg-electric-500 text-white font-bold shadow-lg border-2 border-electric-500 hover:bg-white hover:text-electric-600 transition-colors duration-200"
+          className="px-8 py-3 rounded-full bg-electric-500 text-indigo-600 font-bold shadow-lg border-2 border-electric-500 hover:bg-white hover:text-electric-600 transition-colors duration-200"
         >
           Let's talk
         </Link>
