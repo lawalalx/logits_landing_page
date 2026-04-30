@@ -7,6 +7,7 @@ const menuItems = [
   { name: "Features", href: "#features" },
   { name: "Service", href: "#service" },
   { name: "Testimonial", href: "#testimonial" },
+  { name: "Privacy", href: "/privacypolicy" },
 ];
 
 import { useState } from "react"
