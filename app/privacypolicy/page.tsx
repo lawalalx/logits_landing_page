@@ -77,7 +77,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-2xl font-semibold mb-2">Contact</h2>
           <p className="mb-2">
             If you have questions or requests about your data, email us at
-            <a className="text-electric-500 underline ml-1" href="mailto:hello@syncliq.com">hello@syncliq.com</a>.
+            <a className="text-electric-500 underline ml-1" href="mailto:info@logittechnologies.com">info@logittechnologies.com</a>.
           </p>
         </section>
 
